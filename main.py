@@ -31,6 +31,8 @@ if (annee % 4) == 0:
 else:
     print("l'année n'est pas bi")
 
+#essai de réaliser la même opération mais en plus court. Sans utilisation répétter du IF.
+
 if (annee % 4 == 0) and ((annee % 100 != 0) or (annee % 400 == 0)):
     print("l'année est bi")
 else:
