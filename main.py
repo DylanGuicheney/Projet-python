@@ -1,11 +1,3 @@
-# age = 18
-# if age < 18:
-#     print("Vous êtes mineur")
-# elif age == 18:
-#     print("Vous êtes majeur pille poil")
-# else:
-#     print("Vous êtes majeur")
-    
 #== égal
 #!= différent
 #>= supérieur ou égal
