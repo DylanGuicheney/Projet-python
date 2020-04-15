@@ -3,7 +3,7 @@
 #>= supérieur ou égal
 #<= inférieur ou égal
 
-# On fait un test pour savoir si a est comprise dans l'intervalle allant de 2 à 8 inclus
+# On fait un test pour savoir si a est comprise dans l'intervalle allant de 2 à 8 
 # a = 8
 # if a >= 2 not a>8:
 #     print("a est dans l'intervalle.")
@@ -34,6 +34,6 @@ else:
 if (annee % 4 == 0) and ((annee % 100 != 0) or (annee % 400 == 0)):
     print("l'année est bi")
 else:
-    print("l'année est pas bi")
+    print("l'année n'est pas bi")
 
 
