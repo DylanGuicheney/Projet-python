@@ -8,7 +8,7 @@ def table_de_7(nb):
     while i < 10: # Tant que i est strictement inférieure à 10,
         print(i + 1, "*", nb, "=", (i + 1) * nb)
         i += 1 # On incrémente i de 1 à chaque tour de boucle.
-table_de_7(nb)
+table_de_7(7)
 
 def table(nb2, max):
     i = 0 # Notre compteur ! L'auriez-vous oublié ?
@@ -37,4 +37,22 @@ variable = carre(5)
 f = lambda x: x * x 
 f(5)
 
+
+                                                            #Découverte des modules (La méthode) et du mot clef import
+
+import math
+math.sqrt(16)
+print(math.sqrt(16))
+
+                                                            #espace de noms spécifique
+
+import math as mathematiques
+mathematiques.sqrt(25)
+print(mathematiques.sqrt(25))
+
+                                                            #Autre méthode d'importation from ..... Import .....
+
+from math import fabs
+fabs(-5)
+print(fabs(2))
 
